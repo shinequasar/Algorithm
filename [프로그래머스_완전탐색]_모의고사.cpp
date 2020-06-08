@@ -20,6 +20,6 @@ vector<int> solution(vector<int> answers) {
     for(int i= 0; i<3; i++){
         if(maxScore == score[i]) answer.push_back(i+1);
     }
-    
+     
     return answer;
 }
